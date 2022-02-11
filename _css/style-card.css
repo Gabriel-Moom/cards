@@ -13,24 +13,7 @@
     src: url('Sun-Moon.ttf') format('truetype');   
     }
 /*-----------------------------------------------*/
-body{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-}
-figcaption{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    height: 80%;
-    width: 100%;
-}
-img{
-    height: 100%;
-    width: 100%;
-}
+
 /*figura 1 quadrada com borda e sombra com degrade-----------------------------------------------*/
 .card-01{
 display: flex;
@@ -73,6 +56,24 @@ box-shadow:-4px 4px 12px 0px var(--verde-01);
     font-weight:700;
     /*altere a cor da fonte */
     color: var(--verde-01);
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+figcaption{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
 }
 /*figura 2 quadrada com aredondamento na borda e sombra com degrade-----------------------------------------------*/
 .card-02{
