@@ -252,3 +252,65 @@ border-radius: 4px;
         /*altere a cor da fonte */
         color: var(--amarelo-01);
     }
+    /*figura 5 quadrada com borda redonda en dois lados iguais e sombra com degrade-----------------------------------------------*/
+.card-05{
+    /*altere as cores do gradiente */
+    background: linear-gradient(45deg, var(--roxo-01), var(--roxo-02) );
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 320px;
+    height: 384px;
+    padding: 15px;
+    /*altere para dois lados iguais do radio */
+    border-radius: 20px 20px 0px 0px;
+    /*altere as cores do sombra */
+    box-shadow:-4px 4px 12px 0px var(--roxo-01);
+    }
+    .card-05 div{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    /*altere para dois lados iguais do radio */
+    border-radius: 20px 20px 0px 0px;
+    }
+    .card-05 img{
+    /*altere para dois lados iguais do radio */
+    border-radius: 20px 20px 0px 0px;
+    }
+    .card-05 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        width: 52.5%;
+        font-weight:900;
+        /*altere a cor da fonte */
+        color: var(--roxo-01);
+    }
+    .card-05 hr{
+        /*altere a cor do background */
+        background-color: var(--amarelo-01);
+        height: 15%;
+        width: 2%;
+        margin: 2.5%;
+        /*altere para dois lados iguais do radio */
+        border-radius: 20px 20px 0px 0px;
+        }
+    .card-05 blockquote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 40%;
+        font-weight:700;
+        /*altere a cor da fonte */
+        color: var(--roxo-01);
+    }
